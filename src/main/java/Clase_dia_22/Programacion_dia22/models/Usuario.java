@@ -1,7 +1,6 @@
 package Clase_dia_22.Programacion_dia22.models;
 
-import ch.qos.logback.core.joran.spi.NoAutoStart;
-import jakarta.annotation.Generated;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,5 +26,5 @@ public class Usuario
     private String apellido;
     private String email;
     private String telefono;
-    private String direccio;
+    private String direccion;
 }
