@@ -21,6 +21,7 @@ public class Usuario
     @Id
     @Column(name = "id") 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private String identificacion;
     private String nombre;
     private String apellido;
