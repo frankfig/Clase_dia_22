@@ -22,10 +22,10 @@ public class Usuario
     @Column(name = "id") 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String identificacion;
-    private String nombre;
-    private String apellido;
-    private String email;
-    private String telefono;
-    private String direccion;
+    private String identificacion ;
+    private String nombre ;
+    private String apellido ;
+    private String email ;
+    private String telefono ;
+    private String direccion ;
 }
